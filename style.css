@@ -5,6 +5,9 @@
 
 .content {
     display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .side-bar > img{
