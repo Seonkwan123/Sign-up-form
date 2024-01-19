@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.side-bar{
+    height: 100%;
+    width: auto;
+}
+
 .side-bar > img{
  width: 50%;
  height: 100%;
