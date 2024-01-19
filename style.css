@@ -1,0 +1,13 @@
+:root {
+    font-family: 'Grape Nuts', cursive, 'Times New Roman', Times, serif;
+
+}
+
+.content {
+    display: flex;
+}
+
+.side-bar > img{
+ width: 50%;
+ height: 100%;
+}
