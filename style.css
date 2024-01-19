@@ -18,12 +18,17 @@
     align-items: center;
 }
 
-.side-bar{
+.side-bar, form{
     height: 100%;
-    width: auto;
+    width: 50%;
 }
 
 .side-bar > img{
  width: 100%;
  height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
