@@ -31,4 +31,10 @@
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    padding-top: 3rem;
+    font-size: 2rem;
 }
