@@ -50,6 +50,19 @@ fieldset {
     align-items: start;
     margin-right: 3rem;
     margin-bottom: 2rem;
+    width: 50%;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input {
+    height: 28px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1.5px solid grey;
 }
 
 p, h1 {
