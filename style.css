@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     font-family: 'Grape Nuts', cursive, 'Times New Roman', Times, serif;
 
@@ -32,7 +33,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
 }
+
+fieldset {
+    border: none;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 p {
     padding-top: 3rem;
