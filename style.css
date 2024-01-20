@@ -36,15 +36,27 @@
     padding: 1rem;
 }
 
-fieldset {
-    border: none;
-    margin: 2rem;
-    display: flex;
-    justify-content: space-around;
+form {
+margin-left: 1rem;
 }
 
+fieldset {
+    border: none;
+    display: flex;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
 
-p {
-    padding-top: 3rem;
+p, h1 {
+    margin: 1rem;
     font-size: 2rem;
+}
+
+form > p {
+    margin: 0;
 }
