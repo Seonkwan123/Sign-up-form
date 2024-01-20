@@ -10,6 +10,7 @@
 :root {
     font-family: 'Grape Nuts', cursive, 'Times New Roman', Times, serif;
     background-color:rgb(243,243,243);
+    --button-color: rgb(173, 216, 230);
 }
 
 .content {
@@ -75,4 +76,15 @@ p, h1 {
 
 form > p {
     margin: 0;
+}
+
+button {
+    width: 12em;
+    height: 3em;
+    font-size: 1rem;
+    margin: 20px 2rem;
+    background-color: var(--button-color);
+    border-radius: 20px;
+    border: 1px;
+    box-shadow: 5px 5px 5px grey;
 }
