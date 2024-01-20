@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.side-bar, form{
+.side-bar, .log-in-form{
     height: 100%;
     width: 50%;
 }
@@ -28,7 +28,7 @@
  height: 100%;
 }
 
-form {
+.log-in-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
