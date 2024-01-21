@@ -93,3 +93,8 @@ button {
 button:active {
 transform: translateY(4px);
 }
+select {
+    width: 12rem;
+    height: 2rem;
+    font-size: 100%;
+}
