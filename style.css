@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     font-family: 'Grape Nuts', cursive, 'Times New Roman', Times, serif;
     background-color:rgb(243,243,243);
@@ -57,11 +56,6 @@ fieldset {
     width: 50%;
 }
 
-input:focus {
-    border-color: 1px solid lightblue;
-    box-shadow: 4px 4px 10px grey;
-}
-
 label{
     font-size: 1.3rem;
 }
@@ -71,8 +65,14 @@ input {
     width: 100%;
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid grey;
+    border: 0.5px solid grey;
 }
+
+input:focus {
+    border: 1.2px solid rgb(122, 155, 221);
+    outline: none;
+    box-shadow:  1px 1px 8px rgba(0, 0, 0, 0.2);
+  } 
 
 p, h1 {
     margin: 1rem;
@@ -98,6 +98,7 @@ button {
 button:active {
 transform: translateY(4px);
 }
+
 select {
     width: 12rem;
     height: 2rem;
