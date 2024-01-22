@@ -57,6 +57,11 @@ fieldset {
     width: 50%;
 }
 
+input:focus {
+    border-color: 1px solid lightblue;
+    box-shadow: 4px 4px 10px grey;
+}
+
 label{
     font-size: 1.3rem;
 }
@@ -66,7 +71,7 @@ input {
     width: 100%;
     border-radius: 5px;
     padding: 5px;
-    border: 1.5px solid grey;
+    border: 1px solid grey;
 }
 
 p, h1 {
@@ -97,4 +102,34 @@ select {
     width: 12rem;
     height: 2rem;
     font-size: 100%;
+}
+.icon {
+    text-align: center;
+    margin:10px auto;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+@media (max-width: 1000px) {
+    :root {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 750px){
+    .content {
+        flex-direction: column;
+    & .side-bar, & .log-in-form {
+        width: 90%;
+    }
+    }
+}
+
+@media (max-width: 470px) {
+    :root {
+        font-size: 10px;
+    }
 }
